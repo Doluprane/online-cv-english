@@ -1,0 +1,150 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    #about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Lucas Mayerus
+    tagline: Developpeur Logiciels
+    #avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: lucas.paolo57@gmail.com
+    phone: +33 7 71 07 10 45
+    website: lucaspaul.eu #do not add http://
+    linkedin: lmayerus
+    city: Tours & Bordeaux
+    #github: sharu725
+    #gitlab:
+    #bitbucket:
+    #twitter: '@webjeda'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: Français
+        level: Natif
+
+      - idiom: Anglais
+        level: TOEIC 845/990
+
+    interests:
+      - item: Nouvelles technologies
+        link:
+
+      - item: Informatique embarquée / IoT
+        link:
+
+      - item: Musique
+        link:
+        
+      - item: Cuisine
+        link:
+        
+      - item: Sport
+        link:
+
+career-profile:
+    title: Profil
+    summary: |
+      Passionné d'informatique et d'électronique depuis mon plus jeune âge,<br>
+      j'ai décidé d'en faire mon métier à temps plein !
+education:
+    - degree: Manager en Systèmes d'Information
+      university: CESI École Supérieure de l’Alternance
+      time: 2020 - 2021
+      details: |
+        Titre enregistré au RNCP (RNCP11554) Niveau 7.<br>
+        Le Mans, Sarthe.
+    - degree: Responsable en Ingénierie des Logiciels
+      university: CESI École Supérieure de l’Alternance
+      time: 2018 - 2020
+      details: |
+        Titre enregistré au RNCP (RNCP14506) Niveau 6.<br>
+        Bordeaux, Gironde.
+    - degree: Brevet de Technicien Supérieur
+      university: Lycée Grandmont
+      time: 2016 - 2018
+      details: |
+        Brevet de Technicien Supérieur en Systèmes Numériques option Informatique et Réseaux.<br>
+        Tours, Indre-et-Loire.
+    - degree: Baccalauréat
+      university: Lycée Polyvalent La Briquerie
+      time: 2014 - 2016
+      details: |
+        Baccalauréat Science et Technologie de l'Industrie et du Développement Durable (STI2D)<br>
+        Mention 'Bien'.<br>
+        Thionville, Moselle.
+
+experiences:
+    - role: Ingénieur DevOPS (junior)
+      time: Septembre 2020 - Aujourd'hui
+      company: <a href="https://www.linkedin.com/company/cegedim-clm/" target="_blank" rel="nofollow">Cegedim Logiciels Medicaux</a>, Vendôme (Loir-et-Cher)
+      details: |
+        Alternance, service DevOPS / ProdOPS.
+    - role: Ingénieur en développement logiciels (junior)
+      time: Septembre 2018 - Septembre 2020
+      company: <a href="https://www.linkedin.com/company/cegedim-clm/" target="_blank" rel="nofollow">Cegedim Logiciels Medicaux</a>, Région de Bordeaux (Gironde)
+      details: |
+        Alternance, service migration des données.
+    - role: Développeur logiciels
+      time: Juin 2018 - Juillet 2018
+      company: <a href="https://www.linkedin.com/company/sandvik-coromant/" target="_blank" rel="nofollow">Sandvik Coromant</a>, Région de Tours (Indre-et-Loire)
+      details: |
+        CDD de 2 mois à la fin de mon BTS afin de déployer le projet final en entreprise.
+    #- role: Stagiaire
+    #  time: Mai 2017 - Juin 2017
+    #  company: <a href="https://www.linkedin.com/company/ldlc/" target="_blank" rel="nofollow">Groupe LDLC</a>, Thionville (Moselle)
+    #  details: |
+    #    Stage permettant de valider ma première année de BTS.
+
+
+projects:
+    title: Projets
+    intro: >
+    assignments:
+
+      - title: MLMDATAEXTRACTOR (M1 CEGEDIM LOGICIELS MEDICAUX)
+
+      - title: SANDVIK - Comptage des plaquettes (BTS) [<a href="https://drive.google.com/file/d/106dfCJubenlub-uSZBDYku7-8Gu13Xtm/view?usp=sharing" target="_blank" rel="nofollow">Rapport</a> / <a href="https://drive.google.com/file/d/1oSWT4ywBL4BhbFgzWSKKLh7UD0wGgSJX/view?usp=sharing" target="_blank" rel="nofollow">Support de présentation oral</a>]
+        tagline: "Projet développé lors de ma dernière année de BTS SN, il s'agit d'une machine permettant de compter automatiquement des plaquettes en sortie de chaîne au sein d'une usine.
+        Elle permet de prendre une photo, de compter les plaquettes, d'enregistrer les résultats sur une base de données et d'imprimer un compte rendu de fin de comptage sur une imprimante de type Dymo.
+        L'application utilise la librairie conçue et développée par Intel: OpenCV."
+
+      - title: Auton'home (Tle) [<a href="https://drive.google.com/file/d/1JxmUPYVcaXCxqjFNVIwocwyD5ZSmzzgM/view?usp=sharing" target="_blank" rel="nofollow">Support de présentation oral</a>]
+        tagline: "Projet développé lors de mon année de Terminale STI2D, il s'agit d'une maison connectée et intelligente. Elle est équipée de plusieurs dispositifs: détection des intrusions ou incendies, 
+        contrôle de périphériques tels quel l'ouverture et fermeture électrique des volets, l'allumage et l'extinction du chauffage ou bien des luminaires. 
+        La maison était contrôlable depuis une interface Web et une application pour les systèmes mobiles Android."
+
+skills:
+    title: Compétences techniques
+
+    toolset:
+      - name: Programmation Orientée Objet
+        level: 65%
+
+      - name: SQL (Oracle, PostgreSQL, MySQL, Access)
+        level: 60%
+      
+      - name: C/C++ (Standard & Framework Qt)
+        level: 60%
+
+      - name: C# (.NET Framework)
+        level: 50%
+
+      - name: Visual Basic 6
+        level: 20%
+
+      - name: Java (Standard & JavaFX)
+        level: 20%
+
+      - name: 'IDE: Visual Studio & Visual Studio Code, Qt Creator, Eclipse, Atom, Notepad++, SQL Developer, pgAdmin etc...'
+        level: 0%
+   
+
+footer: >
+    Thème créé par <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> et modifié par MAYERUS Lucas.
